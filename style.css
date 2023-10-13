@@ -1,0 +1,40 @@
+h1{font-family: 'Tilt Neon', sans-serif;}
+
+.bg-blue{background-color:rgba(39,170,245,1) ;padding:20px; margin:5px; border:2px solid #000000;}
+
+
+
+
+
+nav
+{background-color:rgba(39,170,245,1);
+border:5px solid rgba(0,0,0,1);
+color:rgba(255, 255, 255, 0.8,);
+display:block;
+overflow:hidden;
+width:100%;}
+
+nav ul li{
+  display:inline-block;
+  list-style-type:none;
+}
+nav ul li a{
+  color:rgba(0,0,0,);
+  display: block;
+  line-height:56px;
+  text-decroation:none;
+  padding:10px;
+}
+
+nav ul li:hover{
+  background-color:rgba(17, 69, 255, 0.92);
+);
+}
+nav ul li:hover a{
+  color:rgba(255, 255, 255, 0.92);
+}}
+
+
+
+
+
