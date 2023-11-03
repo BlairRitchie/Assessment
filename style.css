@@ -1,5 +1,5 @@
 h1{font-family: 'Tilt Neon', sans-serif;}
-
+h2{font-family: 'Space Grotesk', sans-serif;}
 ul{text-align:center;}
 h1{text-align:center;}
 
@@ -22,8 +22,6 @@ nav ul li{
   list-style-type: none;
 }
 
-
-
 nav ul li a{
   color: #000000;
   display: block;
@@ -32,21 +30,23 @@ nav ul li a{
   padding: 10px;
 }
 
-
-
 nav ul li :hover{
   background-color:rgba(62, 236, 79, 0.8)
-
-
-
 }
-
-
 
 nav ul li:hover a{
   color: rgb(0, 0, 0)
 }
 
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
 
 
 
+footer{background-color:rgba(255,255,255,);
+  color:rgba(0,0,0,);
+  text-align:center;
+  padding:3px;}
