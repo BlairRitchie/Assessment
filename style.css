@@ -1,11 +1,11 @@
 h1{font-family: 'Tilt Neon', sans-serif;}
 h2{font-family: 'Space Grotesk', sans-serif;}
 ul{text-align:center;}
-h1{text-align:center;}
+body{text-align:center;}
 
 
 .bg-green{background-color:rgba(62,236,79,1) ;padding:20px; margin:5px; border:2px solid #000000;}
-
+<div class="bg-green"> <h2>Memeber 1</h2>
 
 
 nav
