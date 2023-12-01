@@ -1,58 +1,102 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>
-     .Gaia{ 
-      height:50px;
-      width:50px; 
-      margin-right:auto;}
-    </style>
+<style>
+.Gaia{ 
+  height:50px;
+  width:50px; 
+  margin-right:auto;}
+  
+body{
+  margin:0;
+}
+  .container2{
+    width:100vw;
+    height:100vh;
+    font-family:'Tilt Neon', sans-serif;
+    font-weight:bold;
+    font-size:20px;
+    display:grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:50px 1fr 1fr 100px;
+
+    gap:10px;
+    padding:10px;
+    box-sizing:border-box;
+  }
+  .container2 div{
+    padding:10px;
+    border:1px #000000 solid;
+  }
+
+  .Information{
+  grid-column-start:1;
+  grid-column-end:4;  
+  }
+
+
+  .Environmental Issues{
+    grid-row-start:2;
+    grid-row-end: span 2;
+  }
+  .What We Do{
+grid-row-start:2;
+    grid-row-end: span 2;
+  }
+
+</style>
    
     
-  <nav>
+<nav>
 
-      <ul class="container">
-         <img src="images/Gaia.jpg" class="Gaia"> 
-        <li><a href=index.html>Home</a></li>
+<ul class="container">
+<img src="images/Gaia.jpg" class="Gaia"> 
 
-        <li><a href="about.html">About Us</a></li>
+<li><a href=index.html>Home</a></li>
 
-        <li><a href="contact.html">Contact Us</a></li>
+<li><a href="about.html">About Us</a></li>
 
-        <li><a href="recycle.html">Recycling</a></li>
+<li><a href="contact.html">Contact Us</a></li>
 
-        <li><a href="sea.html">Sea</a></li>
+<li><a href="recycle.html">Recycling</a></li>
 
-        <li><a href="desert.html">Deserts</a></li>
+<li><a href="sea.html">Sea</a></li>
 
-        <li><a href="mountain.html">Mountain</a></li>
+<li><a href="desert.html">Deserts</a></li>
 
-      </ul>
+<li><a href="mountain.html">Mountain</a></li>
 
-    </nav>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+</ul>
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content=IE=edge>
-  <meta name="viewport" content="width=device-width">
-  <title>About Us</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+</nav>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content=IE=edge>
+<meta name="viewport" content="width=device-width">
+<title>About Us</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
 </head> 
+<body>
 
-    <body>
-      <div class="bg-green">  <h1>About Us</h1>
- </div>
+  <div class="bg-green">  <h1>About Us</h1> </div>
 
-      <div>
-        <img src="images/office2.jpg" style="width:700px; height:400px;">
-      </div>
+<div>
+<img src="images/office2.jpg" style="width:1500px; height:700px;">
+</div>
 
-      <div>
+      <div class="container2">
+        <div class="Information">Information</div>
+        <div class="How You Can Help">How You Can Help</div>
+         <div class="What We Do">What We Do</div>
+        <div class="Environmental Issues">Environmental Issues</div>
+        <div class="Our Workers">Our Workers</div>
         </div>
 
-  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+<script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
 <footer>
   <p> GAIA 2023<BR> 
   <a href="GAIA@outlook.com">GAIA@outlook.com</a></p>
