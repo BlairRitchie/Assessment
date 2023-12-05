@@ -12,7 +12,6 @@ body{text-align:center;}
   padding-right:30px;}
 
 
-
 nav
 {background-color:rgba(255,255,255,);
 border:2px solid rgba(0,0,0,1);
@@ -83,7 +82,7 @@ display: table;
 
 
 @media screen and (max-width: 992px){
-.bg-green{background-color:rgba(62,236,79,0.5) ;padding:100px; margin:0px; border:2px solid #000000;
+.bg-green{background-color:rgba(62,236,79,0.5) ;padding:10px; margin:5px; border:2px solid #000000;
          }
 }
 
@@ -95,7 +94,8 @@ display: table;
 }
 
 @media screen and (max-width: 600px){
-.bg-green{background-color:rgba(62,236,79,0.1) ;padding:10px; margin:0px; border:2px solid #000000;}
+.bg-green{background-color:rgba(62,236,79,0.1) ;padding:10px; margin:5px; border:2px solid #000000;
+         }
 }
 
 
@@ -108,8 +108,9 @@ display: table;
   }
 }
 
-footer{background-color:rgba(255,255,255,);
-  color:rgba(0,0,0,);
+footer{
+  background-color:rgba(255,255,255);
+  color:rgba(0,0,0);
   text-align:center;
   padding:3px; margin:0px;
   border:5px solid #000000;}
@@ -157,18 +158,86 @@ body{
   }
 
   .Information{
+  background-color:rgba(62,236,79);  
   grid-column-start:1;
   grid-column-end:4;  
   }
 
 
-  .Environmental Issues{
+  .How-You-Can-Help{
+    background-color:rgba(62,236,79);
+    grid-column-start:3;
+    grid-column-end:4;
     grid-row-start:2;
-    grid-row-end: span 2;
+    grid-row-end:4;
   }
-  .What We Do{
-grid-row-start:2;
-    grid-row-end: span 2;
+  .What-We-Do{
+  background-color:rgba(62,236,79);  
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start: 2; 
+  grid-row-end:4 ; 
   }
 
+.Environmental-Issues{
+  background-color:rgba(62,236,79); 
+}
+.Our-Workers{
+  background-color:rgba(62,236,79); 
+}
 
+@media screen and ( max-width:992px) {
+  .Information{
+    width:100%;
+    background-color:rgba(62,236,79,0.5);
+  }
+  .How-You-Can-Help{
+    width:100%;
+    background-color:rgba(62,236,79,0.5);            
+  }
+  .What-We-Do{
+    width:100%;
+    background-color:rgba(62,236,79,0.5);
+}
+  .Environmental-Issues{
+    width:100%;
+    background-color:rgba(62,236,79,0.5);
+  }
+  .Our-Workers{
+    width:100%;
+    background-color:rgba(62,236,79,0.5);
+  }
+ .office1{
+   width:100%
+ }
+.office2{
+  width:100%
+}
+  
+@media screen and ( max-width:600px){
+  .Information{
+    width:100%;
+    background-color:rgba(62,236,79,0.1);
+  }
+  .How-You-Can-Help{
+    width:100%;
+    background-color:rgba(62,236,79,0.1);
+}
+  .What-We-Do{
+    width:100%;
+    background-color:rgba(62,236,79,0.1);
+  }
+  .Environmental-Issues{
+    width:100%;
+    background-color:rgba(62,236,79,0.1);
+  }
+  .Our-Workers{
+    width:100%;
+    background-color:rgba(62,236,79,0.1);
+  }
+ .office1{
+   width:100%
+ }
+.office2{
+  width:100%
+}
