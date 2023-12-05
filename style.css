@@ -11,9 +11,6 @@ body{text-align:center;}
 .bar{
   padding-right:30px;}
 
-.container{
-  list-style: none;
-  display:flex;}
 
 
 nav
@@ -125,3 +122,53 @@ footer{background-color:rgba(255,255,255,);
 
 .CFO{
   border-radius:50%;}
+
+
+
+
+.Gaia{ 
+  height:50px;
+  width:50px; 
+  margin-right:auto;
+float:left;
+}
+
+body{
+  margin:0;
+}
+  .container2{
+    width:100vw;
+    height:100vh;
+    font-family:'Tilt Neon', sans-serif;
+    font-weight:bold;
+    font-size:20px;
+    display:grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:50px 1fr 1fr 100px;
+
+    gap:10px;
+    padding:10px;
+    box-sizing:border-box;
+  }
+  .container2 div{
+    padding:10px;
+    border:1px #000000 solid;
+  }
+
+  .Information{
+  grid-column-start:1;
+  grid-column-end:4;  
+  }
+
+
+  .Environmental Issues{
+    grid-row-start:2;
+    grid-row-end: span 2;
+  }
+  .What We Do{
+grid-row-start:2;
+    grid-row-end: span 2;
+  }
+
+
