@@ -2,7 +2,7 @@ h1{font-family: 'Tilt Neon', sans-serif;}
 h2{font-family: 'Space Grotesk', sans-serif;}
 ul{text-align:center;}
 body{text-align:center;}
-
+form{font-family: 'Nova Square', sans-serif;}
 
 .bg-green{background-color:rgba(62,236,79,1) ;padding:20px; margin:5px; border:2px solid #000000;}
 <div class="bg-green"> 
@@ -112,7 +112,7 @@ footer{
   background-color:rgba(255,255,255);
   color:rgba(0,0,0);
   text-align:center;
-  padding:3px; margin:0px;
+  padding:5px; margin:0px;
   border:5px solid #000000;}
 
 .CEO{
@@ -137,7 +137,10 @@ float:left;
 body{
   margin:0;
 }
-  .container2{
+/*
+For About Us page
+/*/
+  .grid1{
     width:100vw;
     height:100vh;
     font-family:'Tilt Neon', sans-serif;
@@ -152,7 +155,7 @@ body{
     padding:10px;
     box-sizing:border-box;
   }
-  .container2 div{
+  .grid1 div{
     padding:10px;
     border:1px #000000 solid;
   }
@@ -185,6 +188,38 @@ body{
 .Our-Workers{
   background-color:rgba(62,236,79); 
 }
+/*
+For Contact us pages
+*/
+.Contact-Form{
+  background-color:rgba(62,236,79);
+  grid-column-start:3;
+  grid-column-end:4;
+  grid-row-start:2;
+  grid-row-end:3;
+}
+
+.Our-Socials{
+  background-color:rgba(62,236,79);  
+  grid-column-start:1;
+  grid-column-end:4;  
+}  
+ .E-Mail{
+   background-color:rgba(62,236,79);
+   grid-column-start:1;
+   grid-column-end:2;
+}
+.Facebook{
+  background-color:rgba(62,236,79);
+  grid-column-start:2;
+  grid-column-end:3;
+}  
+.Our-Location{
+  background-color:rgba(62,236,79);
+  grid-column-start:1;
+  grid-column-end:4;
+  text-align: ;
+}
 
 @media screen and ( max-width:992px) {
   .Information{
@@ -213,6 +248,29 @@ body{
 .office2{
   width:100%
 }
+.map{
+  width:100%;
+}  
+.Contact-Form{
+  Width:100%;
+  background-color:rgba(62,236,79,0.5);
+}  
+.Our-Socials{
+  width:100%;
+  background-color:rgba(62,236,79,0.5);
+}
+.E-Mail{
+  width:100%;
+  background-color: rgba(62,236,79,0.5) 
+}
+.Our-Location{
+ width:100%; 
+ background-color:rgba(62,236,79,0.5); 
+}
+ .Facebook{
+   width:100%;
+   background-color:rgba(62,236,79,0.5);
+ } 
   
 @media screen and ( max-width:600px){
   .Information{
@@ -239,5 +297,28 @@ body{
    width:100%
  }
 .office2{
-  width:100%
+  width:100%}
+.map{
+ width:100%;
+}  
+.Contact-Form{
+  Width:100%;
+  background-color:rgba(62,236,79,0.1);
 }
+.Our-Socials{
+  width:100%;
+  background-color:rgba(62,236,79,0.1);
+}
+.E-Mail{
+width:100%;
+background-color: rgba(62,236,79,0.1) 
+}
+.Facebook{
+  width:100%;
+  background-color:rgba(62,236,79,0.1);
+}
+.Our-Location{
+ width:100%; 
+ background-color:rgba(62,236,79,0.1);  
+}  
+  
