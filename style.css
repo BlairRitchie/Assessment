@@ -124,6 +124,7 @@ footer{
 footer p{
   border: 5px solid rgba(62, 236, 79);
 }  
+
 .CEO{
   border-radius:50%;}
 
@@ -234,7 +235,7 @@ For Contact us pages
 .footer-grid{
   grid-column-start:1;
   grid-column-end:4;
-  
+  border:5px solid rgba(62, 236, 79);
 }
 
 /*for recycling page*/
@@ -286,17 +287,12 @@ For Contact us pages
 
 .S-Volunteer{
   background-color:rgba(53, 189, 108);
-  grid-column-start:2 ;
-  grid-column-end: 3;
+  grid-column-start:2;
+  grid-column-end: 4;
   grid-row-start:3;
   grid-row-end:4;
 }
-.S-How-To-Help{
-  background-color:rgba(53, 189, 108);
-  grid-column-start:3;
-  grid-column-end:4;
-  grid-row-start:3;
-  grid-row-end:4;}
+
 
 .S-Facts{
   background-color:rgba(53, 189, 108);
@@ -307,8 +303,8 @@ For Contact us pages
 }
 .S-Image{
   background-color:rgba(53, 189, 108);
-  grid-column-start:1 ;
-  grid-column-end: 2;
+  grid-column-start:1;
+  grid-column-end:2;
   grid-row-start:1;
   grid-row-end:3;
 }
