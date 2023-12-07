@@ -7,7 +7,6 @@ form{font-family: 'Nova Square', sans-serif;}
 .bg-green{background-color:rgba(53, 189, 108);padding:20px; margin:5px; border:2px solid #000000;}
 <div class="bg-green"> 
 
-
 .bar{
   padding-right:30px;}
 
@@ -16,6 +15,7 @@ form{font-family: 'Nova Square', sans-serif;}
 }
 .social-icon:hover{
 background-color:rgba(0,0,0,1);}
+
 
 
 nav
@@ -158,7 +158,7 @@ For About Us page
     font-size:20px;
     display:grid;
 
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-template-rows:50px 1fr 1fr 100px;
 
     gap:5px;
@@ -173,7 +173,9 @@ For About Us page
   .Information{
   background-color:rgba(53, 189, 108);  
   grid-column-start:1;
-  grid-column-end:4;  
+  grid-column-end:4; 
+  grid-row-start:1;  
+  grid-row-end:1;  
   }
 
 
@@ -182,21 +184,30 @@ For About Us page
     grid-column-start:3;
     grid-column-end:4;
     grid-row-start:2;
-    grid-row-end:4;
+    grid-row-end:5;
   }
   .What-We-Do{
   background-color:rgba(53, 189, 108);  
   grid-column-start:2;
   grid-column-end:3;
   grid-row-start: 2; 
-  grid-row-end:4 ; 
+  grid-row-end:5; 
   }
 
 .Environmental-Issues{
-  background-color:rgba(53, 189, 108); 
+  background-color:rgba(53, 189, 108);
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:2;
+  grid-row-end:3;
+
 }
 .Our-Workers{
   background-color:rgba(53, 189, 108); 
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:3;
+  grid-row-end:5;
 }
 /*
 For Contact us pages
@@ -247,25 +258,21 @@ For Contact us pages
   grid-row-start:1;
   grid-row-end:3;
 }
-.How-To-Help{
-  background-color:rgba(53, 189, 108);
-   grid-column-start:1;
-   grid-column-end:2;
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
+
 .R-Volunteer{
    background-color:rgba(53, 189, 108);
  grid-column-start: 3;
   grid-column-end:4;
   grid-row-start:3;
-  grid-row-end:4;
+  grid-row-end:5;
 }
 
-.Facts{
+.R-Facts{
    background-color:rgba(53, 189, 108);
-  grid-column-start:2;
+  grid-column-start:1;
   grid-column-end:3;
+  grid-row-start:3;
+  grid-row-end:5;
 }
 
 .Recycling-image{
@@ -279,6 +286,7 @@ For Contact us pages
 
 /* sea page*/
 .S-Environmental-Issues{
+  text-overflow: ;
   background-color:rgba(53, 189, 108);
   grid-column-start:2;
   grid-column-end: 4;
@@ -296,7 +304,7 @@ For Contact us pages
 
 .S-Facts{
   background-color:rgba(53, 189, 108);
-  grid-column-start:1 ;
+  grid-column-start:1;
   grid-column-end: 2;
   grid-row-start:3;
   grid-row-end:4;
@@ -309,14 +317,75 @@ For Contact us pages
   grid-row-end:3;
 }
 
+/*Desert page*/
+.D-Environmental-Issues{
+  background-color:rgba(53, 189, 108);
+  grid-column-start:;
+  grid-column-end: 4;
+  grid-row-start:1;
+  grid-row-end:3;}
 
+.D-Volunteer{
+  background-color:rgba(53, 189, 108);
+  grid-column-start:2;
+  grid-column-end: 4;
+  grid-row-start:3;
+  grid-row-end:5;
+}
+
+.D-Facts{
+  background-color:rgba(53, 189, 108);
+  grid-column-start:1;
+  grid-column-end: 2;
+  grid-row-start:3;
+  grid-row-end:5;
+}
+.D-Image{
+  background-color:rgba(53, 189, 108);
+  grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:1;
+  grid-row-end:3;
+}
+
+/*Mountain page*/ 
+.M-Environmental-Issues{
+  background-color:rgba(53, 189, 108);
+  grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:1;
+  grid-row-end:3;}
+
+.M-Volunteer{
+  background-color:rgba(53, 189, 108);
+  grid-column-start:1;
+  grid-column-end: 3;
+  grid-row-start:3;
+  grid-row-end:5;
+}
+
+.M-Facts{
+  background-color:rgba(53, 189, 108);
+  grid-column-start:3;
+  grid-column-end: 4;
+  grid-row-start:3;
+  grid-row-end:5;
+}
+.M-Image{
+  background-color:rgba(53, 189, 108);
+  grid-column-start:3;
+  grid-column-end:4;
+  grid-row-start:1;
+  grid-row-end:3;
+}
 
 
 /* 992px */
 
 
-@media screen and ( max-width:992px) {
+@media screen and (max-width:992px) {
   .Information{
+    text-size-adjust:5px;
     width:100%;
     background-color:rgba(53, 189, 108,0.5);
   }
@@ -345,6 +414,9 @@ For Contact us pages
 .map{
   width:100%;
 }  
+ .desert volunteer.png{
+   width:100%;
+ } 
 .Contact-Form{
   Width:100%;
   background-color:rgba(53, 189, 108,0.5);
@@ -385,7 +457,7 @@ For Contact us pages
     background-color:rgba(53, 189, 108, 0.5);
   }
 
-.Facts{
+.R-Facts{
     width:100%;
     background-color:rgba(53, 189, 108, 0.5);
   }  
@@ -414,7 +486,37 @@ For Contact us pages
     width:100%;
     background-color:rgba(53, 189, 108, 0.5);
   }    
-/*600px*/
+
+.D-Environmental-Issues{
+  width:100%;
+  background-color:rgba(53, 189, 108, 0.5);
+}  
+
+.D-Facts{ width:100%;
+        background-color:rgba(53, 189, 108, 0.5);
+   }
+
+
+.D-Image{ width:100%;
+         background-color:rgba(53, 189, 108, 0.5);
+  }
+
+.D-Volunteer{ width:100%;
+background-color:rgba(53, 189, 108, 0.5);}
+
+.M-Environmental-Issues{ width:100%;
+                       background-color:rgba(53, 189, 108, 0.5);}  
+
+.M-Facts{ width:100%;
+  background-color:rgba(53, 189, 108, 0.5);}
+
+.M-Image{ width:100%;
+  background-color:rgba(53, 189, 108, 0.5);}
+
+.M-Volunteer{ width:100%;
+  background-color:rgba(53, 189, 108, 0.5);} 
+
+  /*600px*/
   
 @media screen and ( max-width:600px){
   .Information{
@@ -485,7 +587,7 @@ background-color: rgba(53, 189, 108, 0.3);
       background-color:rgba(53, 189, 108, 0.3);
     }
 
-  .Facts{
+  .R-Facts{
       width:100%;
       background-color:rgba(53, 189, 108, 0.3);
   }  
@@ -515,5 +617,34 @@ background-color: rgba(53, 189, 108, 0.3);
     background-color:rgba(53, 189, 108, 0.3);
   }    
 
+.D-Environmental-Issues{ width:100%;
+        background-color:rgba(53, 189, 108, 0.3);}
 
+.D-Facts{ width:100%;
+        background-color:rgba(53, 189, 108, 0.3);
+}
+
+.D-Image{ width:100%;
+        background-color:rgba(53, 189, 108, 0.3);}
+
+.D-Volunteer{ width:100%;
+            background-color:rgba(53, 189, 108, 0.3);}  
+
+.M-Environmental-Issues{
+    width:100%;
+    background-color:rgba(53, 189, 108,0.3);
+  }
   
+.M-Facts{ width:100%;
+  background-color:rgba(53, 189, 108,0.3);
+}
+
+.M-Image{
+    width:100%;
+    background-color:rgba(53, 189, 108,0.3);
+  }
+
+.M-Volunteer{
+    width:100%;
+    background-color:rgba(53, 189, 108,0.3);
+  }  
