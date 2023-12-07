@@ -20,7 +20,7 @@ background-color:rgba(0,0,0,1);}
 
 nav
 {background-color:rgba(255,255,255,);
-border:2px solid rgba(0,0,0,1);
+border:2px solid rgba(62, 236, 79);
 color:rgba(255,255,255,);
 display:block;
 overflow:hidden;
@@ -119,9 +119,11 @@ footer{
   color:rgba(0,0,0,1);
   text-align:center;
   padding:5px; 
-  margin:0px;
-  border:5px rgba:(0,0,0,1);}
-
+  margin-top:auto;
+}
+footer p{
+  border: 5px solid rgba(62, 236, 79);
+}  
 .CEO{
   border-radius:50%;}
 
@@ -158,13 +160,13 @@ For About Us page
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows:50px 1fr 1fr 100px;
 
-    gap:10px;
+    gap:5px;
     padding:10px;
     box-sizing:border-box;
   }
   .grid1 div{
     padding:10px;
-    border:1px #000000 solid;
+    border:1px solid rgba(0,0,0,1);
   }
 
   .Information{
@@ -229,6 +231,94 @@ For Contact us pages
   grid-row-end:4;
 }
 
+.footer-grid{
+  grid-column-start:1;
+  grid-column-end:4;
+  
+}
+
+/*for recycling page*/
+
+.R-Environmental-Issues{
+  background-color:rgba(53, 189, 108);
+   grid-column-start:1;
+   grid-column-end:3;
+  grid-row-start:1;
+  grid-row-end:3;
+}
+.How-To-Help{
+  background-color:rgba(53, 189, 108);
+   grid-column-start:1;
+   grid-column-end:2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.R-Volunteer{
+   background-color:rgba(53, 189, 108);
+ grid-column-start: 3;
+  grid-column-end:4;
+  grid-row-start:3;
+  grid-row-end:4;
+}
+
+.Facts{
+   background-color:rgba(53, 189, 108);
+  grid-column-start:2;
+  grid-column-end:3;
+}
+
+.Recycling-image{
+   background-color:rgba(53, 189, 108);
+  grid-column-start:3 ;
+  grid-column-end: 4;
+  grid-row-start:1;
+  grid-row-end:3;
+}  
+
+
+/* sea page*/
+.S-Environmental-Issues{
+  background-color:rgba(53, 189, 108);
+  grid-column-start:2;
+  grid-column-end: 4;
+  grid-row-start:1;
+  grid-row-end:3;}
+
+.S-Volunteer{
+  background-color:rgba(53, 189, 108);
+  grid-column-start:2 ;
+  grid-column-end: 3;
+  grid-row-start:3;
+  grid-row-end:4;
+}
+.S-How-To-Help{
+  background-color:rgba(53, 189, 108);
+  grid-column-start:3;
+  grid-column-end:4;
+  grid-row-start:3;
+  grid-row-end:4;}
+
+.S-Facts{
+  background-color:rgba(53, 189, 108);
+  grid-column-start:1 ;
+  grid-column-end: 2;
+  grid-row-start:3;
+  grid-row-end:4;
+}
+.S-Image{
+  background-color:rgba(53, 189, 108);
+  grid-column-start:1 ;
+  grid-column-end: 2;
+  grid-row-start:1;
+  grid-row-end:3;
+}
+
+
+
+
+/* 992px */
+
+
 @media screen and ( max-width:992px) {
   .Information{
     width:100%;
@@ -279,6 +369,56 @@ For Contact us pages
    width:100%;
    background-color:rgba(53, 189, 108, 0.5);
  } 
+.R-Environmental-Issues{
+  width:100%;
+  background-color:rgba(53, 189, 108, 0.5);
+}
+
+.How-To-Help{
+    width:100%;
+    background-color:rgba(53, 189, 108, 0.5);
+  }  
+
+.R-Volunteer{
+    width:100%;
+    background-color:rgba(53, 189, 108, 0.5);
+  }
+
+.Recycling-image{
+    width:100%;
+    background-color:rgba(53, 189, 108, 0.5);
+  }
+
+.Facts{
+    width:100%;
+    background-color:rgba(53, 189, 108, 0.5);
+  }  
+
+.S-Environmental-Issues{
+    width:100%;
+    background-color:rgba(53, 189, 108, 0.5);
+  }  
+
+.S-Volunteer{
+    width:100%;
+    background-color:rgba(53, 189, 108, 0.5);
+  } 
+
+.S-How-To-Help{
+    width:100%;
+    background-color:rgba(53, 189, 108, 0.5);
+  }    
+
+.S-Facts{
+    width:100%;
+    background-color:rgba(53, 189, 108, 0.5);
+  }    
+
+.S-Image{
+    width:100%;
+    background-color:rgba(53, 189, 108, 0.5);
+  }    
+/*600px*/
   
 @media screen and ( max-width:600px){
   .Information{
@@ -328,39 +468,56 @@ background-color: rgba(53, 189, 108, 0.3);
 .Our-Location{
  width:100%; 
  background-color:rgba(53, 189, 108, 0.3);  
-}  
-
+} 
+  
 .R-Environmental-Issues{
-  background-color:rgba(53, 189, 108);
-   grid-column-start:1;
-   grid-column-end:2;
-  grid-row-start:1;
-  grid-row-end:3;
-}
-.Facts{
-  background-color:rgba(53, 189, 108);
-   grid-column-start:1;
-   grid-column-end:2;
-  grid-row-start:2;
-  grid-row-end: 3;
-}
-.How-To-Help{
-  background-color:rgba(53, 189, 108);
-   grid-column-start:3;
-   grid-column-end:4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-.R-Volunteer{
- grid-column-start: 3;
-  grid-column-end:4;
-  grid-row-start:1;
-  grid-row-end:2;
-}
+    width:100%;
+    background-color:rgba(53, 189, 108, 0.3);
+  }
 
-.Recycling-image{
-  grid-column-start:3 ;
-  grid-column-end: 4;
-  grid-row-start:2;
-  grid-row-end:3;
-}  
+.How-To-Help{
+      width:100%;
+      background-color:rgba(53, 189, 108, 0.3);
+    }  
+.R-Volunteer{
+      width:100%;
+      background-color:rgba(53, 189, 108, 0.3);
+    }
+
+  .Recycling-image{
+      width:100%;
+      background-color:rgba(53, 189, 108, 0.3);
+    }
+
+  .Facts{
+      width:100%;
+      background-color:rgba(53, 189, 108, 0.3);
+  }  
+
+  .S-Environmental-Issues{
+    width:100%;
+    background-color:rgba(53, 189, 108, 0.3);
+  }  
+
+  .S-Volunteer{
+    width:100%;
+    background-color:rgba(53, 189, 108, 0.3);
+  } 
+
+  .S-How-To-Help{
+    width:100%;
+    background-color:rgba(53, 189, 108, 0.3);
+  }    
+
+  .S-Facts{
+    width:100%;
+    background-color:rgba(53, 189, 108, 0.3);
+  }    
+
+  .S-Image{
+    width:100%;
+    background-color:rgba(53, 189, 108, 0.3);
+  }    
+
+
+  
